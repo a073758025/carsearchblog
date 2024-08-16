@@ -1,0 +1,30 @@
+/* 標題 */
+.headspace 	   {height:54px;background-color: #ffffff;padding:10px;}
+.space1 	   {width:468px;height:54px;background-color: #ffffff;padding:0px;float:center;}
+.headwordspace {width:360px;height:54px;background-color: #ffffff;padding:0px;float:left;}
+.headword	   {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 40px;color: #003377;text-align:center;}
+.car1space     {width:54px;height:54px;background-color: #ffffff;float:left;}
+.moto1space    {width:42px;height:42px;background-color: #ffffff;padding:6px;float:left;}
+/* 特色 */
+.specialspace  {height:70px;background-color: #6cb6e7;padding:10px;}
+.space2 	   {width:958px;height:70px;background-color: #6cb6e7;padding:0px;float:center;}
+.specialdraw1  {width: 50px;height:50px;background-color: #ffffff;border-radius: 35px;padding:10px;float:left;}
+.special1      {width:220px;height:54px;background-color: #6cb6e7;padding:8px;float:left;}
+.specialword1  {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 20px;color: #003377;text-align:left;}
+.specialdraw2  {width: 50px;height:50px;background-color: #ffffff;border-radius: 35px;padding:10px;float:left;}
+.special2      {width:160px;height:54px;background-color: #6cb6e7;padding:8px;float:left;}
+.specialword2  {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 20px;color: #003377;text-align:left;}
+.specialdraw3  {width: 50px;height:50px;background-color: #ffffff;border-radius: 35px;padding:10px;float:left;}
+.special3      {width:320px;height:54px;background-color: #6cb6e7;padding:8px;float:left;}
+.specialword3  {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 20px;color: #003377;text-align:left;}
+/* 地址 */
+.space3 	   {height:40px;background-color: #b8e76c;padding:0px;}
+.mapspace      {width:824px;height:40px;background-color: #b8e76c;padding:0px;}
+.mapwordspace  {width:816px;height:32px;background-color: #b8e76c;padding:4px;float:left;}
+.mapword       {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 24px;color: #003377;text-align:center;}
+
+.bodyspace 	   {width:1000px;height:500px;background-color: #ffffff;padding:0px;}
+/* 使用者選項 */
+.userout       {width:190px;height:38x;background-color: #6cc4e7;padding:5px;margin-top:10px;float:left;}
+.userin        {width:180px;height:28px;background-color: #ffffff;padding:5px;}
+.userword      {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 20px;color: #003377;text-align:center;}
