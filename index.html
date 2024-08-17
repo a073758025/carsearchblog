@@ -86,30 +86,32 @@
 
     </div></center>	
     <script>
-        var carmainpage = ["#","#","#","#","#"];
+        var carmainpage = ["#","#","#","#","#","carshop.html"];
         var carindeximage = ["https://thumbs2.imgbox.com/23/3e/RkRShZnD_t.jpg",
                             "https://thumbs2.imgbox.com/23/3e/RkRShZnD_t.jpg",
                             "https://thumbs2.imgbox.com/23/3e/RkRShZnD_t.jpg",
                             "https://thumbs2.imgbox.com/23/3e/RkRShZnD_t.jpg",
-                            "https://thumbs2.imgbox.com/23/3e/RkRShZnD_t.jpg"];
+                            "https://thumbs2.imgbox.com/23/3e/RkRShZnD_t.jpg",
+                            "image4.jpg"];
 
         var carindexlabel = ["2016馬自達CX-5",
                             "2016馬自達CX-5",
                             "2016馬自達CX-5",
                             "2016馬自達CX-5",
-                            "2016馬自達CX-5"];
+                            "2016馬自達CX-5",
+                            "2007年三菱得利卡"];
 
         var carindexsmall = ["一二三四我六七八九十一二三四我六七八九十",
                             "一二三四我六七八九十一二三四我六七八九十",
                             "一二三四我六七八九十一二三四我六七八九十",
                             "一二三四我六七八九十一二三四我六七八九十",
-                            "一二三四我六七八九十一二三四我六七八九十"];
+                            "一二三四我六七八九十一二三四我六七八九十",
+                            "有四錄行車記錄器,新的後斗"];
 
-        var carindexprice = [42.5,22.5,42.5,12.5,32.5];
-        var carindexpeople = ["吳先生", "吳先生", "吳先生", "朱先生", "吳先生"];
-        var carindexyear = [2010,2006,2012,2010,2013];
-        var carindexcc = [5191,4191,3191,2191,2191];
-        var carindexkm = [108123,118000,118000,110000,18000];
+        var carindexprice = [42.5,22.5,42.5,12.5,32.5,13.8];
+        var carindexyear = [2010,2006,2012,2010,2013,2007];
+        var carindexcc = [5191,4191,3191,2191,2191,2000];
+        var carindexkm = [108123,118000,118000,110000,18000,170000];
 
         var carindexkmchar = new Array(carmainpage.length).fill(0);
         var carpricecopy = new Array(carmainpage.length).fill(0);
@@ -243,7 +245,6 @@
                             + '<div class="goodslabelout"><div class="goodslabel">' + carindexlabel[counter] + '</div></div>'
                             + '<div class="goodssmallout"><div class="goodssmall">' + carindexsmall[counter] + '</div></div>'
                             + '<div class="goodspriceout"><div class="goodsprice">' + carindexprice[counter] + '萬</div></div>'
-                            + '<div class="goodspeopleout"><div class="goodspeople">' + carindexpeople[counter] + '</div></div>'
                             + '<div class="goodsyearout"><div class="goodsyear">' + carindexyear[counter] + '年</div></div>'
                             + '<div class="goodsccout"><div class="goodscc">' + carindexcc[counter] + 'cc</div></div>'
                             + '<div class="goodskmout"><div class="goodskm">約' + carindexkmchar[counter] + '公里</div></div>'

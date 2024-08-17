@@ -61,11 +61,9 @@
 .goodssmall    {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 16px;color: #616161;text-align:left;}
 .goodspriceout {width:90px;height:40px;background-color: #ffffff;padding:5px;float:left;}
 .goodsprice    {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 30px;color: #f1a71e;text-align:right;}
-.goodspeople   {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 16px;color: #003377;text-align:left;}
-.goodsccout    {width:75px;height:22px;background-color: #ffffff;padding:9px 0px;float:left;}
-.goodsyearout  {width:75px;height:22px;background-color: #ffffff;padding:9px 0px;float:left;}
-.goodsyear     {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 16px;color: #000000;text-align:center;}
-.goodspeopleout{width:70px;height:22px;background-color: #ffffff;padding:9px 0px;float:left;}
+.goodsccout    {width:60px;height:22px;background-color: #ffffff;padding:9px 0px;float:left;}
+.goodsyearout  {width:60px;height:22px;background-color: #ffffff;padding:9px 0px;float:left;}
+.goodsyear     {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 16px;color: #000000;text-align:left;}
 .goodscc       {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 16px;color: #000000;text-align:center;}
 .goodskmout    {width:120px;height:22px;background-color: #ffffff;padding:9px 0px;float:left;}
 .goodskm       {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 16px;color: #000000;text-align:right;}
@@ -84,7 +82,6 @@ a:hover .goodslabelout {background-color: #f0f0f0;}
 a:hover .goodssmallout {background-color: #f0f0f0;}
 a:hover .goodspriceout {background-color: #f0f0f0;}
 a:hover .goodsyearout  {background-color: #f0f0f0;}
-a:hover .goodspeopleout{background-color: #f0f0f0;}
 a:hover .goodsccout    {background-color: #f0f0f0;}
 a:hover .goodskmout    {background-color: #f0f0f0;}
 a:hover .findinouted   {background-color: #4dd53b;}
