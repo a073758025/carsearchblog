@@ -3,7 +3,7 @@ var carimage = [6];
 var carindexlabel = ["2007年三菱得利卡"
                     ];
 
-var carindexsmall = ["有四錄行車記錄器,新的後斗,正時皮帶17萬公哩剛換"
+var carindexsmall = ["有四錄行車記錄器,新的後斗,正時皮帶17萬公里剛換"
                     ];
                             
 var carshopdetail = ["無重大事故,無泡水,無顧車,保證公里數"
