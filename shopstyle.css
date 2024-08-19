@@ -1,0 +1,68 @@
+/* 標題 */
+.headspace 	    {height:54px;background-color: #ffffff;padding:10px;}
+.space1 	    {width:468px;height:54px;background-color: #ffffff;padding:0px;float:center;}
+.headwordspace  {width:360px;height:54px;background-color: #ffffff;padding:0px;float:left;}
+.headword	    {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 40px;color: #003377;text-align:center;}
+.car1space      {width:54px;height:54px;background-color: #ffffff;float:left;}
+.moto1space     {width:42px;height:42px;background-color: #ffffff;padding:6px;float:left;}
+/* 特色 */
+.specialspace   {height:70px;background-color: #6cb6e7;padding:10px;}
+.space2 	    {width:406px;height:70px;background-color: #6cb6e7;padding:0px;float:center;}
+.specialdraw    {width: 50px;height:50px;background-color: #ffffff;border-radius: 35px;padding:10px;float:left;}
+.special        {width:320px;height:54px;background-color: #6cb6e7;padding:8px;float:left;}
+.specialword    {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 20px;color: #003377;text-align:left;}
+/* 地址 */
+.space3 	    {height:40px;background-color: #b8e76c;padding:0px;}
+.mapspace       {width:824px;height:40px;background-color: #b8e76c;padding:0px;}
+.mapwordspace   {width:816px;height:32px;background-color: #b8e76c;padding:4px;float:left;}
+.mapword        {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 24px;color: #003377;text-align:center;}
+
+.bodyspace 	    {width:1000px;height:500px;background-color: #ffffff;padding:0px;}
+/* 使用者選項 */
+.userspace      {width:200px;height:38x;background-color: #ffffff;padding:21.5px 0px;margin-top:10px;float:left;}
+.userout        {width:190px;height:38x;background-color: #6cc4e7;padding:5px;}
+.userin         {width:180px;height:28px;background-color: #ffffff;padding:5px;}
+.userwordspace  {width:180px;height:28px;background-color: #ffffff;padding:0px;}
+.userword       {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 20px;color: #003377;text-align:center;}
+/* 聯絡資訊 */
+.contactin      {width:780px;height:81px;background-color: #038d38;padding:5px;margin-top:10px;margin-left:10px;float:left;}
+.contact        {width:770px;height:28px;background-color: #ffffff;padding:5px;}
+.contactcut     {width:780px;height:5px;background-color: #000000;padding:0px;}
+.contactword    {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 20px;color: #003377;text-align:center;}
+
+.carphoto       {width:520px;height:390px;background-color: #ffffff;padding:0px;margin-top:10px;float:left;}
+.changephoto    {width:40px;height:70px;background-color: #ffffff;padding:160px 0px;margin-top:10px;float:left;}
+.changeword     {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 60px;color: #000000;text-align:center;}
+
+.goodspaceout   {width:390px;background-color: #4d442c;padding:5px;margin-top:10px;float:left;}
+.goodspacein    {width:390px;background-color: #62ff00;padding:0px;}
+.goodlabelspace {width:390px;height:46px;background-color: #ffffff;padding:0px;}
+.goodlabelword	{font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 34px;color: #000000;text-align:center;}
+.goodspacecut   {width:390px;height:5px;background-color: #4d442c;padding:0px;}
+.goodsmallspace {width:380px;height:72px;background-color: #ffffff;padding:0px 5px;}
+.goodsmallword	{font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 27px;color: #616161;text-align:left;}
+.goodpricespace {width:390px;height:46px;background-color: #ffffff;padding:0px;}
+.goodpriceword	{font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 34px;color: #f1a71e;text-align:center;}
+.goodpricecut   {width:390px;height:5px;background-color: #d80101;padding:0px;}
+.goodyscspace   {width:390px;height:36px;background-color: #ffffff;padding:0px;}
+.goodyearspace  {width:97.5px;height:36px;background-color: #ffffff;padding:0px;float:left;}
+.goodyearword	{font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 27px;color: #000000;text-align:center;}
+.goodccspace    {width:97.5px;height:36px;background-color: #ffffff;padding:0px;float:left;}
+.goodccword	    {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 27px;color: #000000;text-align:center;margin-top: 5px;}
+.goodkmspace    {width:185px;height:36px;background-color: #ffffff;padding:0px;float:left;}
+.goodkmword	    {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 27px;color: #000000;text-align:center;}
+.goodsmallcut   {width:5px;height:36px;background-color: #4d442c;padding:0px;float:left;}
+.gooddetailspace{width:380px;background-color: #ffffff;padding:0px 5px;}
+.gooddetailword	{font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 24px;color: #000000;text-align:left;}
+
+.smallphotospace{width:520px;background-color: #ffffff;padding:0px;margin-left: 40px;float:left;}
+.smallbuttonin  {width:120px;height:90px;background-color: #ffffff;margin-top:5px; margin-bottom:5px;margin-left:3.75px;margin-right:0px;}
+
+.buttonchange   {width:40px;height:70px;background: none;background-color:#cccccd;border: none;text-decoration: none;padding: 0px;padding-block:0px;padding-inline:0px;cursor: pointer;}
+.buttonphoto    {width:130px;height:97.5px;background: none;background-color:#ffffff;border: none;text-decoration: none;padding:0px;padding-block:0px;padding-inline:0px;cursor: pointer;float:left;}
+
+.buttonphoto.active  {background-color: rgb(255, 169, 90);}
+.buttonphoto:hover   {background-color: rgb(255, 255, 0);}
+
+a			           {text-decoration:none;color: inherit;}
+a:hover .userwordspace {background-color: rgb(255, 255, 0);}
