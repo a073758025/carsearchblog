@@ -5,7 +5,7 @@ var carindexprice = [];
 var carindexyear = [];
 var carindexcc = [];
 var carindexkm = [];
-const jsonUrl = "http://127.0.0.1:5500/carindexlist.json";
+const jsonUrl = "carindexlist.json";
 fetch(jsonUrl)
     .then(response => {
         if (!response.ok) 
