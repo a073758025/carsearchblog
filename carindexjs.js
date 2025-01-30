@@ -61,11 +61,11 @@ function start()
         carkmsort[i]=i;
         if(carindexkm[i]>=1)
         {
-            carindexkmchar[i]=(carindexkm[i] / 10).toFixed(1)+"萬";
+            carindexkmchar[i]=carindexkm[i]+"萬";
         }
         else
         {
-            carindexkmchar[i]=carindexkm[i]*1000;
+            carindexkmchar[i]=carindexkm[i]*10000;
         }
     }
 

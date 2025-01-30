@@ -34,11 +34,11 @@ function start()
     var carindexkmchar = "0";
     if(carindexkm>=1)
     {
-        carindexkmchar=(carindexkm / 10).toFixed(1)+"萬";
+        carindexkmchar=carindexkm+"萬";
     }
     else
     {
-        carindexkmchar=carindexkm*1000;
+        carindexkmchar=carindexkm*10000;
     }
     document.getElementById('goodcontent').innerHTML  = '<div class="goodlabelspace"><div class="goodlabelword">'+carindexlabel+'</div></div>'
                                                         +'<div class="goodspacecut"></div>'
