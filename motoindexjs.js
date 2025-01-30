@@ -5,7 +5,7 @@ var carindexprice = [];
 var carindexyear = [];
 var carindexcc = [];
 var carindexkm = [];
-const jsonUrl = "http://127.0.0.1:5500/carindexlist.json";
+const jsonUrl = "http://127.0.0.1:5500/motoindexlist.json";
 fetch(jsonUrl)
     .then(response => {
         if (!response.ok) 
@@ -15,13 +15,13 @@ fetch(jsonUrl)
         return response.json();
     })
     .then(data => {
-        carid = data.cars.map(v => v.id);
-        carindexlabel = data.cars.map(v => v.carindexlabel);
-        carindexsmall = data.cars.map(v => v.carindexsmall);
-        carindexprice = data.cars.map(v => v.carindexprice);
-        carindexyear = data.cars.map(v => v.carindexyear);
-        carindexcc = data.cars.map(v => v.carindexcc);
-        carindexkm = data.cars.map(v => v.carindexkm);
+        carid = data.motos.map(v => v.id);
+        carindexlabel = data.motos.map(v => v.carindexlabel);
+        carindexsmall = data.motos.map(v => v.carindexsmall);
+        carindexprice = data.motos.map(v => v.carindexprice);
+        carindexyear = data.motos.map(v => v.carindexyear);
+        carindexcc = data.motos.map(v => v.carindexcc);
+        carindexkm = data.motos.map(v => v.carindexkm);
         start();
     })
     .catch(error => console.error("無法獲取資料:", error));
@@ -126,8 +126,8 @@ function start()
 
 function printgoodsfunction(counter)
 {
-    var newstring = '<center><div class="goodsout"><div class="goodsin"><a href="carshop.html?carid='+ carid[counter] +'">'
-                    + '<div class="goodsimage"><img src="carimage/' + carid[counter] +'_1.jpg" width="200px" height="150px"/></div>'
+    var newstring = '<center><div class="goodsout"><div class="goodsin"><a href="motoshop.html?carid='+ carid[counter] +'">'
+                    + '<div class="goodsimage"><img src="motoimage/' + carid[counter] +'_1.jpg" width="200px" height="150px"/></div>'
                     + '<div class="goodscontent">'
                     + '<div class="goodslabelout"><div class="goodslabel">' + carindexlabel[counter] + '</div></div>'
                     + '<div class="goodssmallout"><div class="goodssmall">' + carindexsmall[counter] + '</div></div>'

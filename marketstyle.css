@@ -28,7 +28,7 @@
 .goodspace     {width:580px;background-color: #ffffff;padding:0px 10px;margin-top:10px;float:left;}
 .findspace     {width:580px;height:40px;background-color: #ffffff;padding:0px;}
 .findcarout    {width:290px;height:40px;background-color: #ffffff;padding:0px;float:left;}
-.findinouted   {width:280px;height:30px;background-color: #e92d27;padding:5px;border-radius: 20px;}
+.findinouted   {width:280px;height:30px;background-color: rgb(255, 198, 113);padding:5px;border-radius: 20px;}
 .findcarinin   {width:280px;height:30px;background-color: #ffffff;padding:0px;border-radius: 15px;}
 .findcar       {width:102px;height:30px;background-color: #ffffff;padding:0px;}
 .findcarimage  {width:30px;height:30px;background-color: #ffffff;padding:0px;float:left;}
@@ -42,7 +42,7 @@
 .findmotospace {width:70px;height:28px;background-color: #ffffff;padding:1px;float:left;}
 .findmotolabel {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 20px;color: #003377;text-align:center;}
 /* 商品格 */
-.goodout       {width:570px;height:575px;background-color: #ebd302;padding:5px;border-radius: 20px;margin-top:10px;}
+.goodout       {width:570px;height:575px;background-color: #6cc4e7;padding:5px;border-radius: 20px;margin-top:10px;}
 .goodin        {width:550px;height:565px;background-color: #ffffff;padding:10px 10px 0px 10px;border-radius: 15px;overflow-y: auto;}
 .goodsout      {width:550px;height:150px;background-color: #ffffff;padding:0px;}
 .goodsin       {width:550px;height:150px;background-color: #ffffff;padding:0px;}
@@ -67,7 +67,7 @@
 .contactlabel  {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 24px;color: #003377;text-align:center;}
 .contactin     {width:190px;height:179px;background-color: #038d38;padding:5px;}
 .contact       {width:190px;height:77px;background-color: #ffffff;padding:5px 0px;}
-.contactcut    {width:190px;height:5px;background-color: #000000;padding:0px;}
+.contactcut    {width:190px;height:5px;background-color: #038d38;padding:0px;}
 .contactword   {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 20px;color: #003377;text-align:center;}
 /* 超連結設定 */
 a			           {text-decoration:none;color: inherit;}
@@ -78,10 +78,10 @@ a:hover .goodspriceout {background-color: #f0f0f0;}
 a:hover .goodsyearout  {background-color: #f0f0f0;}
 a:hover .goodsccout    {background-color: #f0f0f0;}
 a:hover .goodskmout    {background-color: #f0f0f0;}
-a:hover .findinouted   {background-color: #4dd53b;}
-a:hover .findinout     {background-color: #4dd53b;}
+a:hover .findinouted   {background-color: rgb(255, 230, 0);}
+a:hover .findinout     {background-color: rgb(255, 230, 0);}
 
 .button                {width:180px;height:28px;background: none;background-color:#ffffff;border: none;text-decoration: none;padding: 1px;padding-block:0px;padding-inline:0px;cursor: pointer;font-family:"微軟正黑體", sans-serif;}
-.button.active:hover   {background-color: rgb(255, 255, 0); /* 鼠标悬停时的背景颜色 */}
+.button.active:hover   {background-color: rgb(255, 230, 0); /* 鼠标悬停时的背景颜色 */}
 .button.active         {background-color: rgb(255, 198, 113);}
-.button:hover          {background-color: rgb(255, 255, 0); /* 激活状态的背景颜色 */}
+.button:hover          {background-color: rgb(255, 230, 0); /* 激活状态的背景颜色 */}

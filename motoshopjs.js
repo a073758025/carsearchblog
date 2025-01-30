@@ -1,11 +1,11 @@
-var carsindexlist=[];
+var motosindexlist=[];
 var smallphoto = document.getElementById('smallphoto');
 var activebutton=1;
 var queryString = window.location.search;
 var urlParams = new URLSearchParams(queryString);
 var carid = parseInt(urlParams.get('carid'), 10);
 
-const jsonUrl = "http://127.0.0.1:5500/carindexlist.json";
+const jsonUrl = "http://127.0.0.1:5500/motoindexlist.json";
 fetch(jsonUrl)
     .then(response => {
         if (!response.ok) 
@@ -15,14 +15,14 @@ fetch(jsonUrl)
         return response.json();
     })
     .then(data => {
-        carsindexlist = data.cars;
+        motosindexlist = data.motos;
         start();
     })
     .catch(error => console.error("無法獲取資料:", error));
 
 function start()
 {
-    var foundcar = carsindexlist.find(v => v.id === carid);
+    var foundcar = motosindexlist.find(v => v.id === carid);
     var carimage = foundcar.carimage;
     var carindexlabel = foundcar.carindexlabel;
     var carindexsmall = foundcar.carindexsmall;
@@ -57,10 +57,10 @@ function start()
                                                         +'<div class="goodspacecut"></div>'
                                                         +'<div class="gooddetailspace"><div class="gooddetailword">'+carshopdetail+'</div></div>';
 
-    var newstring='<button id="button1" onclick="changeImage(1)" class="buttonphoto active"><div class="smallbuttonin"><img src="carimage/' + carid +'_1.jpg" width="120px" height="90px"/></div></button>';
+    var newstring='<button id="button1" onclick="changeImage(1)" class="buttonphoto active"><div class="smallbuttonin"><img src="motoimage/' + carid +'_1.jpg" width="120px" height="90px"/></div></button>';
     for(var i=2;i<=carimage;i++)
     {
-            newstring += '<button id="button'+i+'" onclick="changeImage('+i+')" class="buttonphoto"><div class="smallbuttonin"><img src="carimage/' + carid +'_'+i+'.jpg" width="120px" height="90px"/></div></button>';
+            newstring += '<button id="button'+i+'" onclick="changeImage('+i+')" class="buttonphoto"><div class="smallbuttonin"><img src="motoimage/' + carid +'_'+i+'.jpg" width="120px" height="90px"/></div></button>';
     }
     smallphoto.innerHTML=newstring;
 
@@ -108,5 +108,5 @@ function changeImage(counter)
 {
     activebutton=counter;
     var image = document.getElementById('mainphoto');
-    image.innerHTML  = '<img src="carimage/' + carid +'_'+counter+'.jpg" width="520px" height="390px"/>'; // 更改为新图片的路径
+    image.innerHTML  = '<img src="motoimage/' + carid +'_'+counter+'.jpg" width="520px" height="390px"/>'; // 更改为新图片的路径
 }

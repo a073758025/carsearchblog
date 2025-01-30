@@ -27,7 +27,7 @@
 /* 聯絡資訊 */
 .contactin      {width:780px;height:81px;background-color: #038d38;padding:5px;margin-top:10px;margin-left:10px;float:left;}
 .contact        {width:770px;height:28px;background-color: #ffffff;padding:5px;}
-.contactcut     {width:780px;height:5px;background-color: #000000;padding:0px;}
+.contactcut     {width:780px;height:5px;background-color: #038d38;padding:0px;}
 .contactword    {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 20px;color: #003377;text-align:center;}
 
 .carphoto       {width:520px;height:390px;background-color: #ffffff;padding:0px;margin-top:10px;float:left;}
@@ -43,7 +43,7 @@
 .goodsmallword	{font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 27px;color: #616161;text-align:left;}
 .goodpricespace {width:390px;height:46px;background-color: #ffffff;padding:0px;}
 .goodpriceword	{font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 34px;color: #f1a71e;text-align:center;}
-.goodpricecut   {width:390px;height:5px;background-color: #d80101;padding:0px;}
+.goodpricecut   {width:390px;height:5px;background-color: #4d442c;padding:0px;}
 .goodyscspace   {width:390px;height:36px;background-color: #ffffff;padding:0px;}
 .goodyearspace  {width:97.5px;height:36px;background-color: #ffffff;padding:0px;float:left;}
 .goodyearword	{font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 27px;color: #000000;text-align:center;}
@@ -62,7 +62,7 @@
 .buttonphoto    {width:130px;height:97.5px;background: none;background-color:#ffffff;border: none;text-decoration: none;padding:0px;padding-block:0px;padding-inline:0px;cursor: pointer;float:left;}
 
 .buttonphoto.active  {background-color: rgb(255, 169, 90);}
-.buttonphoto:hover   {background-color: rgb(255, 255, 0);}
+.buttonphoto:hover   {background-color: rgb(255, 230, 0);}
 
 a			           {text-decoration:none;color: inherit;}
-a:hover .userwordspace {background-color: rgb(255, 255, 0);}
+a:hover .userwordspace {background-color: rgb(255, 230, 0);}
