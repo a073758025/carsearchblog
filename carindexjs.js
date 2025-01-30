@@ -25,7 +25,6 @@ fetch(jsonUrl)
         start();
     })
     .catch(error => console.error("無法獲取資料:", error));
-var carindexpricechar = new Array(carindexlabel.length).fill(0);
 var carindexkmchar = new Array(carindexlabel.length).fill(0);
 var carpricecopy = new Array(carindexlabel.length).fill(0);
 var caryearcopy = new Array(carindexlabel.length).fill(0);
@@ -60,8 +59,7 @@ function start()
         caryearsort[i]=i;
         carccsort[i]=i;
         carkmsort[i]=i;
-        carindexpricechar[i]=(carindexprice[i] / 10).toFixed(1);
-        if((carindexkm[i]/10)>=1)
+        if(carindexkm[i]>=1)
         {
             carindexkmchar[i]=(carindexkm[i] / 10).toFixed(1)+"萬";
         }
@@ -131,7 +129,7 @@ function printgoodsfunction(counter)
                     + '<div class="goodscontent">'
                     + '<div class="goodslabelout"><div class="goodslabel">' + carindexlabel[counter] + '</div></div>'
                     + '<div class="goodssmallout"><div class="goodssmall">' + carindexsmall[counter] + '</div></div>'
-                    + '<div class="goodspriceout"><div class="goodsprice">' + carindexpricechar[counter] + '萬</div></div>'
+                    + '<div class="goodspriceout"><div class="goodsprice">' + carindexprice[counter] + '萬</div></div>'
                     + '<div class="goodsyearout"><div class="goodsyear">' + carindexyear[counter] + '年</div></div>'
                     + '<div class="goodsccout"><div class="goodscc">' + carindexcc[counter] + 'cc</div></div>'
                     + '<div class="goodskmout"><div class="goodskm">約' + carindexkmchar[counter] + '公里</div></div>'

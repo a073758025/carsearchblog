@@ -31,8 +31,8 @@ function start()
     var carindexyear = foundcar.carindexyear;
     var carindexcc = foundcar.carindexcc;
     var carindexkm = foundcar.carindexkm;
-    carindexpricechar=(carindexprice / 10).toFixed(1);
-    if((carindexkm/10)>=1)
+    var carindexkmchar = "0";
+    if(carindexkm>=1)
     {
         carindexkmchar=(carindexkm / 10).toFixed(1)+"萬";
     }
@@ -40,12 +40,11 @@ function start()
     {
         carindexkmchar=carindexkm*1000;
     }
-
     document.getElementById('goodcontent').innerHTML  = '<div class="goodlabelspace"><div class="goodlabelword">'+carindexlabel+'</div></div>'
                                                         +'<div class="goodspacecut"></div>'
                                                         +'<div class="goodsmallspace"><div class="goodsmallword">'+carindexsmall+'</div></div>'
                                                         +'<div class="goodpricecut"></div>'
-                                                        +'<div class="goodpricespace"><div class="goodpriceword">好車入手價&nbsp;&nbsp;'+carindexpricechar+'萬</div></div>'
+                                                        +'<div class="goodpricespace"><div class="goodpriceword">好車入手價&nbsp;&nbsp;'+carindexprice+'萬</div></div>'
                                                         +'<div class="goodpricecut"></div>'
                                                         +'<div class="goodyscspace">'
                                                         +    '<div class="goodyearspace"><div class="goodyearword">'+carindexyear+'年</div></div>'
