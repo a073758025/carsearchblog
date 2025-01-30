@@ -1,12 +1,12 @@
 /* 標題 */
-.headspace 	   {width:1000px;height:54px;background-color: #ffffff;padding:10px;}
+.headspace 	   {width:980px;height:54px;background-color: #ffffff;padding:10px;}
 .space1 	   {width:468px;height:54px;background-color: #ffffff;padding:0px;float:center;}
 .headwordspace {width:360px;height:54px;background-color: #ffffff;padding:0px;float:left;}
 .headword	   {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 40px;color: #003377;text-align:center;}
 .car1space     {width:54px;height:54px;background-color: #ffffff;float:left;}
 .moto1space    {width:42px;height:42px;background-color: #ffffff;padding:6px;float:left;}
 /* 特色 */
-.specialspace  {width:1000px;height:70px;background-color: #6cb6e7;padding:10px;}
+.specialspace  {width:980px;height:70px;background-color: #6cb6e7;padding:10px;}
 .space2 	   {width:406px;height:70px;background-color: #6cb6e7;padding:0px;float:center;}
 .specialdraw  {width: 50px;height:50px;background-color: #ffffff;border-radius: 35px;padding:10px;float:left;}
 .special      {width:320px;height:54px;background-color: #6cb6e7;padding:8px;float:left;}
