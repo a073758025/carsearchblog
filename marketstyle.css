@@ -1,87 +1,571 @@
 /* 標題 */
-.headspace 	   {width:980px;height:54px;background-color: #ffffff;padding:10px;}
-.space1 	   {width:468px;height:54px;background-color: #ffffff;padding:0px;float:center;}
-.headwordspace {width:360px;height:54px;background-color: #ffffff;padding:0px;float:left;}
-.headword	   {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 40px;color: #003377;text-align:center;}
-.car1space     {width:54px;height:54px;background-color: #ffffff;float:left;}
-.moto1space    {width:42px;height:42px;background-color: #ffffff;padding:6px;float:left;}
+.headspace {
+    width: 980px;
+    height: 54px;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 0 auto; /* 取代 float:center; 讓外容器置中 */
+}
+.space1 {
+    width: 468px;
+    height: 54px;
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 0 auto; /* 同上 */
+}
+.headwordspace {
+    width: 360px;
+    height: 54px;
+    background-color: #ffffff;
+    padding: 0px;
+    float: left;
+}
+.headword {
+    font-weight: bold;
+    font-family: sans-serif, "微軟正黑體";
+    font-size: 40px;
+    color: #003377;
+    text-align: center;
+}
+.car1space {
+    width: 54px;
+    height: 54px;
+    background-color: #ffffff;
+    float: left;
+}
+.moto1space {
+    width: 42px;
+    height: 42px;
+    background-color: #ffffff;
+    padding: 6px;
+    float: left;
+}
+
 /* 特色 */
-.specialspace  {width:980px;height:70px;background-color: #6cb6e7;padding:10px;}
-.space2 	   {width:406px;height:70px;background-color: #6cb6e7;padding:0px;float:center;}
-.specialdraw  {width: 50px;height:50px;background-color: #ffffff;border-radius: 35px;padding:10px;float:left;}
-.special      {width:320px;height:54px;background-color: #6cb6e7;padding:8px;float:left;}
-.specialword  {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 20px;color: #003377;text-align:left;}
+.specialspace {
+    width: 980px;
+    height: 70px;
+    background-color: #6cb6e7;
+    padding: 10px;
+    margin: 0 auto; /* 讓外容器置中 */
+}
+.space2 {
+    width: 406px;
+    height: 70px;
+    background-color: #6cb6e7;
+    padding: 0px;
+    margin: 0 auto; /* 取代 float:center; */
+}
+.specialdraw {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 35px;
+    padding: 10px;
+    float: left;
+}
+.special {
+    width: 320px;
+    height: 54px;
+    background-color: #6cb6e7;
+    padding: 8px;
+    float: left;
+}
+.specialword {
+    font-weight: bold;
+    font-family: sans-serif, "微軟正黑體";
+    font-size: 20px;
+    color: #003377;
+    text-align: left;
+}
+
 /* 地址 */
-.space3 	   {width:1000px;height:40px;background-color: #b8e76c;padding:0px;}
-.mapspace      {width:824px;height:40px;background-color: #b8e76c;padding:0px;}
-.mapwordspace  {width:816px;height:32px;background-color: #b8e76c;padding:4px;float:left;}
-.mapword       {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 24px;color: #003377;text-align:center;}
+.space3 {
+    width: 1000px;
+    height: 40px;
+    background-color: #b8e76c;
+    padding: 0px;
+}
+.mapspace {
+    width: 824px;
+    height: 40px;
+    background-color: #b8e76c;
+    padding: 0px;
+}
+.mapwordspace {
+    width: 816px;
+    height: 32px;
+    background-color: #b8e76c;
+    padding: 4px;
+    float: left;
+}
+.mapword {
+    font-weight: bold;
+    font-family: sans-serif, "微軟正黑體";
+    font-size: 24px;
+    color: #003377;
+    text-align: center;
+}
 
-.bodyspace 	   {width:1000px;height:500px;background-color: #ffffff;padding:0px;}
+/* body 區域 */
+.bodyspace {
+    width: 1000px;
+    height: 500px;
+    background-color: #ffffff;
+    padding: 0px;
+}
+
 /* 使用者選項 */
-.userspace     {width:200px;background-color: #ffffff;padding:0px;margin-top:10px;float:left;}
-.userout       {width:190px;height:382px;background-color: #6cc4e7;padding:5px;}
-.userin        {width:180px;height:28px;background-color: #ffffff;padding:5px;}
-.userword     {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 20px;color: #003377;text-align:center;}
-.usercut       {width:180px;height:5px;background-color: #6cc4e7;padding:0px;}
-/* 商品標題 */
-.goodspace     {width:580px;background-color: #ffffff;padding:0px 10px;margin-top:10px;float:left;}
-.findspace     {width:580px;height:40px;background-color: #ffffff;padding:0px;}
-.findcarout    {width:290px;height:40px;background-color: #ffffff;padding:0px;float:left;}
-.findinouted   {width:280px;height:30px;background-color: rgb(255, 198, 113);padding:5px;border-radius: 20px;}
-.findcarinin   {width:280px;height:30px;background-color: #ffffff;padding:0px;border-radius: 15px;}
-.findcar       {width:102px;height:30px;background-color: #ffffff;padding:0px;}
-.findcarimage  {width:30px;height:30px;background-color: #ffffff;padding:0px;float:left;}
-.findcarspace  {width:70px;height:28px;background-color: #ffffff;padding:1px;float:left;}
-.findcarlabel  {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 20px;color: #003377;text-align:center;}
-.findmotoout   {width:290px;height:40px;background-color: #ffffff;padding:0px;float:right;}
-.findinout     {width:280px;height:30px;background-color: #bbbbbb;padding:5px;border-radius: 20px;}
-.findmotoinin  {width:280px;height:30px;background-color: #ffffff;padding:0px;border-radius: 15px;}
-.findmoto      {width:102px;height:30px;background-color: #ffffff;padding:0px;}
-.findmotoimage {width:26px;height:26px;background-color: #ffffff;padding:2px;float:left;}
-.findmotospace {width:70px;height:28px;background-color: #ffffff;padding:1px;float:left;}
-.findmotolabel {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 20px;color: #003377;text-align:center;}
-/* 商品格 */
-.goodout       {width:570px;height:575px;background-color: #6cc4e7;padding:5px;border-radius: 20px;margin-top:10px;}
-.goodin        {width:550px;height:565px;background-color: #ffffff;padding:10px 10px 0px 10px;border-radius: 15px;overflow-y: auto;}
-.goodsout      {width:550px;height:150px;background-color: #ffffff;padding:0px;}
-.goodsin       {width:550px;height:150px;background-color: #ffffff;padding:0px;}
-.goodscut      {width:550px;height:1px;background-color: #b1afaf;padding:0px;margin-bottom:10px;}
-.goodsimage    {width:200px;height:150px;background-color: #ffffff;padding:0px;float:left;}
-.goodscontent  {width:340px;height:140px;background-color: #ffffff;padding:5px;float:left;}
-.goodslabelout {width:340px;height:40px;background-color: #ffffff;padding:5px 0px;}
-.goodslabel    {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 30px;color: #000000;text-align:left;}
-.goodssmallout {width:235px;height:44px;background-color: #ffffff;padding:3px 0px 3px 5px;float:left;}
-.goodssmall    {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 16px;color: #616161;text-align:left;}
-.goodspriceout {width:90px;height:40px;background-color: #ffffff;padding:5px;float:left;}
-.goodsprice    {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 30px;color: #f1a71e;text-align:right;}
-.goodsccout    {width:60px;height:22px;background-color: #ffffff;padding:9px 0px;float:left;}
-.goodsyearout  {width:60px;height:22px;background-color: #ffffff;padding:9px 0px;float:left;}
-.goodsyear     {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 16px;color: #000000;text-align:left;}
-.goodscc       {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 16px;color: #000000;text-align:center;margin-top: 3px;}
-.goodskmout    {width:120px;height:22px;background-color: #ffffff;padding:9px 0px;float:left;}
-.goodskm       {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 16px;color: #000000;text-align:right;}
-/* 聯絡視窗 */
-.contactout    {width:200px;background-color: #ffffff;padding:0px;margin-top:10px;float:left;}
-.contactspace  {width:192px;height:32px;background-color: #b3f746;padding:4px;}
-.contactlabel  {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 24px;color: #003377;text-align:center;}
-.contactin     {width:190px;height:179px;background-color: #038d38;padding:5px;}
-.contact       {width:190px;height:77px;background-color: #ffffff;padding:5px 0px;}
-.contactcut    {width:190px;height:5px;background-color: #038d38;padding:0px;}
-.contactword   {font-weight:bold;font-family: sans-serif, "微軟正黑體";font-size: 20px;color: #003377;text-align:center;}
-/* 超連結設定 */
-a			           {text-decoration:none;color: inherit;}
-a:hover .goodscontent  {background-color: #f0f0f0;}
-a:hover .goodslabelout {background-color: #f0f0f0;}
-a:hover .goodssmallout {background-color: #f0f0f0;}
-a:hover .goodspriceout {background-color: #f0f0f0;}
-a:hover .goodsyearout  {background-color: #f0f0f0;}
-a:hover .goodsccout    {background-color: #f0f0f0;}
-a:hover .goodskmout    {background-color: #f0f0f0;}
-a:hover .findinouted   {background-color: rgb(255, 230, 0);}
-a:hover .findinout     {background-color: rgb(255, 230, 0);}
+.userspace {
+    width: 200px;
+    background-color: #ffffff;
+    padding: 0px;
+    margin-top: 10px;
+    float: left;
+}
+.userout {
+    width: 190px;
+    height: 382px;
+    background-color: #6cc4e7;
+    padding: 5px;
+}
+.userin {
+    width: 180px;
+    height: 28px;
+    background-color: #ffffff;
+    padding: 5px;
+}
+.userword {
+    font-weight: bold;
+    font-family: sans-serif, "微軟正黑體";
+    font-size: 20px;
+    color: #003377;
+    text-align: center;
+}
+.usercut {
+    width: 180px;
+    height: 5px;
+    background-color: #6cc4e7;
+    padding: 0px;
+}
 
-.button                {width:180px;height:28px;background: none;background-color:#ffffff;border: none;text-decoration: none;padding: 1px;padding-block:0px;padding-inline:0px;cursor: pointer;font-family:"微軟正黑體", sans-serif;}
-.button.active:hover   {background-color: rgb(255, 230, 0); /* 鼠标悬停时的背景颜色 */}
-.button.active         {background-color: rgb(255, 198, 113);}
-.button:hover          {background-color: rgb(255, 230, 0); /* 激活状态的背景颜色 */}
+/* 商品標題 */
+.goodspace {
+    width: 580px;
+    background-color: #ffffff;
+    padding: 0px 10px;
+    margin-top: 10px;
+    float: left;
+}
+.findspace {
+    width: 580px;
+    height: 40px;
+    background-color: #ffffff;
+    padding: 0px;
+}
+.findcarout {
+    width: 290px;
+    height: 40px;
+    background-color: #ffffff;
+    padding: 0px;
+    float: left;
+}
+.findinouted {
+    width: 280px;
+    height: 30px;
+    background-color: rgb(255, 198, 113);
+    padding: 5px;
+    border-radius: 20px;
+}
+.findcarinin {
+    width: 280px;
+    height: 30px;
+    background-color: #ffffff;
+    padding: 0px;
+    border-radius: 15px;
+}
+.findcar {
+    width: 102px;
+    height: 30px;
+    background-color: #ffffff;
+    padding: 0px;
+}
+.findcarimage {
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    padding: 0px;
+    float: left;
+}
+.findcarspace {
+    width: 70px;
+    height: 28px;
+    background-color: #ffffff;
+    padding: 1px;
+    float: left;
+}
+.findcarlabel {
+    font-weight: bold;
+    font-family: sans-serif, "微軟正黑體";
+    font-size: 20px;
+    color: #003377;
+    text-align: center;
+}
+.findmotoout {
+    width: 290px;
+    height: 40px;
+    background-color: #ffffff;
+    padding: 0px;
+    float: right;
+}
+.findinout {
+    width: 280px;
+    height: 30px;
+    background-color: #bbbbbb;
+    padding: 5px;
+    border-radius: 20px;
+}
+.findmotoinin {
+    width: 280px;
+    height: 30px;
+    background-color: #ffffff;
+    padding: 0px;
+    border-radius: 15px;
+}
+.findmoto {
+    width: 102px;
+    height: 30px;
+    background-color: #ffffff;
+    padding: 0px;
+}
+.findmotoimage {
+    width: 26px;
+    height: 26px;
+    background-color: #ffffff;
+    padding: 2px;
+    float: left;
+}
+.findmotospace {
+    width: 70px;
+    height: 28px;
+    background-color: #ffffff;
+    padding: 1px;
+    float: left;
+}
+.findmotolabel {
+    font-weight: bold;
+    font-family: sans-serif, "微軟正黑體";
+    font-size: 20px;
+    color: #003377;
+    text-align: center;
+}
+
+/* 商品格 */
+.goodout {
+    width: 570px;
+    height: 575px;
+    background-color: #6cc4e7;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.goodin {
+    width: 550px;
+    height: 565px;
+    background-color: #ffffff;
+    padding: 10px 10px 0px 10px;
+    border-radius: 15px;
+    overflow-y: auto;
+}
+.goodsout {
+    width: 550px;
+    height: 150px;
+    background-color: #ffffff;
+    padding: 0px;
+}
+.goodsin {
+    width: 550px;
+    height: 150px;
+    background-color: #ffffff;
+    padding: 0px;
+}
+.goodscut {
+    width: 550px;
+    height: 1px;
+    background-color: #b1afaf;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+.goodsimage {
+    width: 200px;
+    height: 150px;
+    background-color: #ffffff;
+    padding: 0px;
+    float: left;
+}
+.goodscontent {
+    width: 340px;
+    height: 140px;
+    background-color: #ffffff;
+    padding: 5px;
+    float: left;
+}
+.goodslabelout {
+    width: 340px;
+    height: 40px;
+    background-color: #ffffff;
+    padding: 5px 0px;
+}
+.goodslabel {
+    font-weight: bold;
+    font-family: sans-serif, "微軟正黑體";
+    font-size: 30px;
+    color: #000000;
+    text-align: left;
+}
+.goodssmallout {
+    width: 235px;
+    height: 44px;
+    background-color: #ffffff;
+    padding: 3px 0px 3px 5px;
+    float: left;
+}
+.goodssmall {
+    font-weight: bold;
+    font-family: sans-serif, "微軟正黑體";
+    font-size: 16px;
+    color: #616161;
+    text-align: left;
+}
+.goodspriceout {
+    width: 90px;
+    height: 40px;
+    background-color: #ffffff;
+    padding: 5px;
+    float: left;
+}
+.goodsprice {
+    font-weight: bold;
+    font-family: sans-serif, "微軟正黑體";
+    font-size: 30px;
+    color: #f1a71e;
+    text-align: right;
+}
+.goodsccout {
+    width: 60px;
+    height: 22px;
+    background-color: #ffffff;
+    padding: 9px 0px;
+    float: left;
+}
+.goodsyearout {
+    width: 60px;
+    height: 22px;
+    background-color: #ffffff;
+    padding: 9px 0px;
+    float: left;
+}
+.goodsyear {
+    font-weight: bold;
+    font-family: sans-serif, "微軟正黑體";
+    font-size: 16px;
+    color: #000000;
+    text-align: left;
+}
+.goodscc {
+    font-weight: bold;
+    font-family: sans-serif, "微軟正黑體";
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    margin-top: 3px;
+}
+.goodskmout {
+    width: 120px;
+    height: 22px;
+    background-color: #ffffff;
+    padding: 9px 0px;
+    float: left;
+}
+.goodskm {
+    font-weight: bold;
+    font-family: sans-serif, "微軟正黑體";
+    font-size: 16px;
+    color: #000000;
+    text-align: right;
+}
+
+/* 聯絡視窗 */
+.contactout {
+    width: 200px;
+    background-color: #ffffff;
+    padding: 0px;
+    margin-top: 10px;
+    float: left;
+}
+.contactspace {
+    width: 192px;
+    height: 32px;
+    background-color: #b3f746;
+    padding: 4px;
+}
+.contactlabel {
+    font-weight: bold;
+    font-family: sans-serif, "微軟正黑體";
+    font-size: 24px;
+    color: #003377;
+    text-align: center;
+}
+.contactin {
+    width: 190px;
+    height: 179px;
+    background-color: #038d38;
+    padding: 5px;
+}
+.contact {
+    width: 190px;
+    height: 77px;
+    background-color: #ffffff;
+    padding: 5px 0px;
+}
+.contactcut {
+    width: 190px;
+    height: 5px;
+    background-color: #038d38;
+    padding: 0px;
+}
+.contactword {
+    font-weight: bold;
+    font-family: sans-serif, "微軟正黑體";
+    font-size: 20px;
+    color: #003377;
+    text-align: center;
+}
+
+/* 超連結設定 */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover .goodscontent,
+a:hover .goodslabelout,
+a:hover .goodssmallout,
+a:hover .goodspriceout,
+a:hover .goodsyearout,
+a:hover .goodsccout,
+a:hover .goodskmout {
+    background-color: #f0f0f0;
+}
+a:hover .findinouted,
+a:hover .findinout {
+    background-color: rgb(255, 230, 0);
+}
+
+/* 按鈕 */
+.button {
+    width: 180px;
+    height: 28px;
+    background: none;
+    background-color: #ffffff;
+    border: none;
+    text-decoration: none;
+    padding: 1px;
+    padding-block: 0px;
+    padding-inline: 0px;
+    cursor: pointer;
+    font-family: "微軟正黑體", sans-serif;
+}
+.button.active:hover {
+    background-color: rgb(255, 230, 0);
+}
+.button.active {
+    background-color: rgb(255, 198, 113);
+}
+.button:hover {
+    background-color: rgb(255, 230, 0);
+}
+/* === 手機/平板等小螢幕（<=768px）時，覆蓋上述樣式 === */
+@media (max-width: 768px) {
+
+    /* 讓固定寬度改為自動撐滿 */
+    .headspace,
+    .specialspace,
+    .space3,
+    .mapspace,
+    .mapwordspace,
+    .bodyspace,
+    .userspace,
+    .goodspace,
+    .contactout {
+        width: 100% !important;    /* 覆蓋原本的 width: ???px */
+        max-width: 100% !important;
+        float: none !important;
+        height: auto !important;   /* 避免高度太小導致內容被擠爆 */
+        margin: 0 auto;            /* 置中 */
+        padding: 10px;             /* 視需要可做內邊距 */
+    }
+
+    /* 讓文字適度縮小 */
+    .headword {
+        font-size: 28px !important;
+    }
+    .specialword,
+    .mapword,
+    .userword,
+    .contactword {
+        font-size: 18px !important;
+    }
+    .goodslabel {
+        font-size: 24px !important;
+    }
+    .goodsprice {
+        font-size: 24px !important;
+    }
+    .goodssmall,
+    .goodscc,
+    .goodsyear,
+    .goodskm {
+        font-size: 14px !important;
+    }
+
+    /* 商品查詢按鈕區，改為上下排列 */
+    .findspace {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        height: auto !important;
+    }
+    .findcarout,
+    .findmotoout {
+        float: none !important;
+        width: 100% !important;
+        max-width: 300px;
+        margin-bottom: 10px;
+    }
+
+    /* 商品清單高度調整 */
+    .goodout {
+        width: 100% !important;
+        max-width: 100%;
+        height: auto !important;
+        margin-top: 10px;
+    }
+    .goodin {
+        width: 100% !important;
+        max-width: 100%;
+        height: auto !important;
+    }
+
+    /* 若圖片在手機太大，可改為自動縮放 */
+    .goodsimage {
+        width: 100% !important;
+        height: auto !important;
+        float: none !important;
+        margin-bottom: 10px;
+    }
+    .goodscontent {
+        width: 100% !important;
+        height: auto !important;
+        float: none !important;
+    }
+}
