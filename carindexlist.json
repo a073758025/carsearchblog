@@ -10,17 +10,6 @@
             "carindexyear": 2001,
             "carindexcc": 1900,
             "carindexkm": 0.8
-        },
-        {
-            "id": 6,
-            "carimage": 5,
-            "carindexlabel": "我試試看",
-            "carindexsmall": "車子",
-            "carshopdetail": "2164654",
-            "carindexprice": 152000.0,
-            "carindexyear": 2001,
-            "carindexcc": 2000,
-            "carindexkm": 126000.0
         }
     ]
 }
