@@ -5,7 +5,7 @@ var queryString = window.location.search;
 var urlParams = new URLSearchParams(queryString);
 var carid = parseInt(urlParams.get('carid'), 10);
 
-const jsonUrl = "motoindexlist.json";
+const jsonUrl = "http://127.0.0.1:5500/motoindexlist.json";
 fetch(jsonUrl)
     .then(response => {
         if (!response.ok) 
@@ -32,20 +32,29 @@ function start()
     var carindexcc = foundcar.carindexcc;
     var carindexkm = foundcar.carindexkm;
     var carindexkmchar = "0";
-    if(carindexkm>=1)
+    var carindexpricechar = "0";
+    if(carindexkm>=10000)
     {
-        carindexkmchar=carindexkm+"萬";
+        carindexkmchar=carindexkm/10000+"萬";
     }
     else
     {
-        carindexkmchar=carindexkm*10000;
+        carindexkmchar=carindexkm;
+    }
+    if(carindexprice>=10000)
+    {
+        carindexpricechar=carindexprice/10000+"萬";
+    }
+    else
+    {
+        carindexpricechar=carindexprice;
     }
 
     document.getElementById('goodcontent').innerHTML  = '<div class="goodlabelspace"><div class="goodlabelword">'+carindexlabel+'</div></div>'
                                                         +'<div class="goodspacecut"></div>'
                                                         +'<div class="goodsmallspace"><div class="goodsmallword">'+carindexsmall+'</div></div>'
                                                         +'<div class="goodpricecut"></div>'
-                                                        +'<div class="goodpricespace"><div class="goodpriceword">好車入手價&nbsp;&nbsp;'+carindexprice+'萬</div></div>'
+                                                        +'<div class="goodpricespace"><div class="goodpriceword">好車入手價&nbsp;&nbsp;'+carindexpricechar+'</div></div>'
                                                         +'<div class="goodpricecut"></div>'
                                                         +'<div class="goodyscspace">'
                                                         +    '<div class="goodyearspace"><div class="goodyearword">'+carindexyear+'年</div></div>'
