@@ -32,13 +32,13 @@ function start()
     var carindexcc = foundcar.carindexcc;
     var carindexkm = foundcar.carindexkm;
     var carindexkmchar = "0";
-    if(carindexkm>=1)
+    if(carindexkm>=10000)
     {
-        carindexkmchar=carindexkm+"萬";
+        carindexkmchar=carindexkm/10000+"萬";
     }
     else
     {
-        carindexkmchar=carindexkm*10000;
+        carindexkmchar=carindexkm;
     }
     document.getElementById('goodcontent').innerHTML  = '<div class="goodlabelspace"><div class="goodlabelword">'+carindexlabel+'</div></div>'
                                                         +'<div class="goodspacecut"></div>'
