@@ -1,15 +1,3 @@
 {
-    "motos": [
-        {
-            "id": 2,
-            "carimage": 6,
-            "carindexlabel": "另一輛摩托車",
-            "carindexsmall": "有四錄行車記錄器,新的後斗,正時皮帶17萬公哩剛換",
-            "carshopdetail": "無重大事故,無泡水,無顧車,保證公里數",
-            "carindexprice": 9.9,
-            "carindexyear": 2005,
-            "carindexcc": 200,
-            "carindexkm": 0.7
-        }
-    ]
+    "motos": []
 }
