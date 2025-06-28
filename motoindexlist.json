@@ -1,15 +1,3 @@
 {
-    "motos": [
-        {
-            "id": 1,
-            "carimage": 3,
-            "carindexlabel": "121313",
-            "carindexsmall": "113132",
-            "carshopdetail": "1164161361",
-            "carindexprice": 150000.0,
-            "carindexyear": 2000,
-            "carindexcc": 2000,
-            "carindexkm": 1260000.0
-        }
-    ]
+    "motos": []
 }
