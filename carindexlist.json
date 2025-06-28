@@ -23,17 +23,6 @@
             "carindexkm": 0.8
         },
         {
-            "id": 4,
-            "carimage": 4,
-            "carindexlabel": "132131",
-            "carindexsmall": "211165446",
-            "carshopdetail": "46546464",
-            "carindexprice": 160.0,
-            "carindexyear": 2012,
-            "carindexcc": 1000,
-            "carindexkm": 123.0
-        },
-        {
             "id": 5,
             "carimage": 10,
             "carindexlabel": "醉新車車車",
