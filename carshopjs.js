@@ -33,7 +33,7 @@ function start()
     var carindexkm = foundcar.carindexkm;
     var carindexkmchar = "0";
     var carindexpricechar = "0";
-    if(carindexkm>=1)
+    if(carindexkm>=10000)
     {
         carindexkmchar=carindexkm/10000+"萬";
     }
@@ -41,7 +41,7 @@ function start()
     {
         carindexkmchar=carindexkm;
     }
-    if(carindexprice>=1)
+    if(carindexprice>=10000)
     {
         carindexpricechar=carindexprice/10000+"萬";
     }
