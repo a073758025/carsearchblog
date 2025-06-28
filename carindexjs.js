@@ -5,7 +5,7 @@ var carindexprice = [];
 var carindexyear = [];
 var carindexcc = [];
 var carindexkm = [];
-const jsonUrl = "carindexlist.json";
+const jsonUrl = "http://127.0.0.1:5500/carindexlist.json";
 fetch(jsonUrl)
     .then(response => {
         if (!response.ok) 
@@ -26,6 +26,7 @@ fetch(jsonUrl)
     })
     .catch(error => console.error("無法獲取資料:", error));
 var carindexkmchar = new Array(carindexlabel.length).fill(0);
+var carindexpricechar = new Array(carindexlabel.length).fill(0);
 var carpricecopy = new Array(carindexlabel.length).fill(0);
 var caryearcopy = new Array(carindexlabel.length).fill(0);
 var carcccopy = new Array(carindexlabel.length).fill(0);
@@ -66,6 +67,14 @@ function start()
         else
         {
             carindexkmchar[i]=carindexkm[i];
+        }
+        if(carindexprice[i]>=10000)
+        {
+            carindexpricechar[i]=carindexprice[i]/10000+"萬";
+        }
+        else
+        {
+            carindexpricechar[i]=carindexprice[i];
         }
     }
 
@@ -129,7 +138,7 @@ function printgoodsfunction(counter)
                     + '<div class="goodscontent">'
                     + '<div class="goodslabelout"><div class="goodslabel">' + carindexlabel[counter] + '</div></div>'
                     + '<div class="goodssmallout"><div class="goodssmall">' + carindexsmall[counter] + '</div></div>'
-                    + '<div class="goodspriceout"><div class="goodsprice">' + carindexprice[counter] + '萬</div></div>'
+                    + '<div class="goodspriceout"><div class="goodsprice">' + carindexpricechar[counter] + '</div></div>'
                     + '<div class="goodsyearout"><div class="goodsyear">' + carindexyear[counter] + '年</div></div>'
                     + '<div class="goodsccout"><div class="goodscc">' + carindexcc[counter] + 'cc</div></div>'
                     + '<div class="goodskmout"><div class="goodskm">約' + carindexkmchar[counter] + '公里</div></div>'
