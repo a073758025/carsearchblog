@@ -59,13 +59,13 @@ function start()
         caryearsort[i]=i;
         carccsort[i]=i;
         carkmsort[i]=i;
-        if(carindexkm[i]>=1)
+        if(carindexkm[i]>=10000)
         {
-            carindexkmchar[i]=carindexkm[i]+"萬";
+            carindexkmchar[i]=carindexkm[i]/10000+"萬";
         }
         else
         {
-            carindexkmchar[i]=carindexkm[i]*10000;
+            carindexkmchar[i]=carindexkm[i];
         }
     }
 
