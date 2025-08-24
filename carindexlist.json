@@ -21,6 +21,17 @@
             "carindexyear": 2014,
             "carindexcc": 2000,
             "carindexkm": 240000.0
+        },
+        {
+            "id": 3,
+            "carimage": 10,
+            "carindexlabel": "福特FOCUS 黑色",
+            "carindexsmall": "柴油 / 省油 / 省稅金 ",
+            "carshopdetail": "車況佳",
+            "carindexprice": 120000.0,
+            "carindexyear": 2014,
+            "carindexcc": 2000,
+            "carindexkm": 240000.0
         }
     ]
 }
