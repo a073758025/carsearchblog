@@ -1,17 +1,6 @@
 {
     "cars": [
         {
-            "id": 4,
-            "carimage": 10,
-            "carindexlabel": "豐田INNOVA  手排",
-            "carindexsmall": "銀色/手排/ 客貨廂型車",
-            "carshopdetail": "可辧貨車牌/省稅金",
-            "carindexprice": 128000.0,
-            "carindexyear": 2010,
-            "carindexcc": 2700,
-            "carindexkm": 92451.0
-        },
-        {
             "id": 5,
             "carimage": 9,
             "carindexlabel": "福特FOCUS 黑色",
